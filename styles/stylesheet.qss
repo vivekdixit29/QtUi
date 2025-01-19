@@ -1,0 +1,105 @@
+    QMainWindow {
+    background-color: #182c1a;
+}    
+    QLabel{
+    color: white;
+    }
+
+    QLabel#ShotDetails{
+    color: white;
+    font-weight: bold;
+    }
+    
+    QLabel#PlayblastDetails{
+    color: white;
+    font-weight: bold;
+    }
+
+    QLabel#PublishOption{
+    color: white;
+    font-weight: bold;
+    }
+
+    QLabel#CacheExportOption{
+    color: white;
+    font-weight: bold;
+    }
+
+    QPushButton
+{
+    color: white;
+    background-color: green;
+    border-width: 1px;
+    border-color: #1e1e1e;
+    border-style: solid;
+    border-radius: 6;
+    padding: 3px;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 40px;
+}
+QPushButton#Cancel
+{
+    color: green;
+    background-color: white;
+    border-width: 1px;
+    border-color: green;
+    border-style: solid;
+    border-radius: 6;
+    padding: 3px;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 40px;
+}
+QPushButton#Add
+{
+    color: green;
+    background-color: white;
+    border-width: 1px;
+    border-color: green;
+    border-style: solid;
+    border-radius: 6;
+    padding: 3px;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 40px;
+}
+QLineEdit
+{
+    background-color: white;
+    padding: 1px;
+    border-style: solid;
+    border: 1px solid grey;
+    border-radius: 5;
+    color: black;
+}
+
+QPushButton:hover
+{
+    border: 2px solid QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #0ef10e, stop: 1 #fbfffb);
+}
+
+QPushButton:pressed
+{
+    background-color: green;
+    border: 2px solid white;
+}
+
+QProgressBar {
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: right;
+}
+QProgressBar::chunk {
+    background-color: green;
+    border-radius: 10px;
+}
+
+
+QCheckBox::indicator:checked {
+    background-color: green;
+    border: 1px solid gray;
+}
